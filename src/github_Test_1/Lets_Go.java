@@ -10,6 +10,7 @@ public class Lets_Go {
 		String test2;
 =======
 		test1 = "황유"
+		test1 = "젭알"
 
 >>>>>>> 9373bdf13ab58e79be51fcb4962a61138e18f77a
 	}
