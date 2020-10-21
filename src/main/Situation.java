@@ -3,9 +3,13 @@ package main;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Situation extends Keyword {
-	private int code;
-	private Map<String, Integer> map = new HashMap<String, Integer>();
+public class Situation {
+	public int code;
+	public Map<String, Integer> map;
 	
-	private void put(Map map) {}
+	public Situation(int code) {
+		this.code = code;
+	}
+	
+	public void put(Map map) {}
 }

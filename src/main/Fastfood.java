@@ -3,9 +3,13 @@ package main;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Fastfood extends Keyword {
-	private int code;
-	private Map<String, Integer> map = new HashMap<String, Integer>();
+public class Fastfood {
+	public int code;
+	public Map<String, Integer> map;
 	
-	private void put(Map map) {}
+	public Fastfood(int code) {
+		this.code = code;
+	}
+	
+	public void put(Map map) {}
 }

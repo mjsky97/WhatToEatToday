@@ -3,15 +3,15 @@ package main;
 import java.util.Map;
 
 public class Restaurant {
-	private String Res_name;
-	private String Res_loca_URL;
-	private Review[] review;
-	private Keyword keyword;
+	public String Res_name;
+	public String Res_loca_URL;
+	public Review[] review;
+	public Keyword keyword;
 	
-	private void set_Res_name(String name) {}
-	private void set_Res_loca_URL(String url) {}
-	private void set_keyword(Map map) {}
-	private Review get_review() {
+	public void set_Res_name(String name) {}
+	public void set_Res_loca_URL(String url) {}
+	public void set_keyword(Map map) {}
+	public Review get_review() {
 		Review re = new Review();
 		return re;
 	}
